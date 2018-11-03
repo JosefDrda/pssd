@@ -3,7 +3,7 @@
   "short_name": "Passwd",
   "theme_color": "#aaaaaa",
   "background_color": "#aaaaaa",
-  "display": "standalone",
+  "display": "fullscreen",
   "scope": "/",
   "start_url": "https://josefdrda.github.io/pssd/",
   "icons": [
