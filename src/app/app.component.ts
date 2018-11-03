@@ -24,11 +24,13 @@ export class AppComponent {
 
   getCode() {
     const date = this.prepareDate();
+    const minutes = Math.floor(parseInt(date.minute) / 10);
 
     const code = this.coderoot +
       (parseInt(date.day.slice(1)) * 100) +
       (parseInt(date.hour.slice(1)) * 10) +
-      (parseInt(date.minute.slice(1)));
+      (minutes);
+
     return code;
   }
 
