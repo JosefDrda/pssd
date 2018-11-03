@@ -9,7 +9,7 @@
       "urls": [
         "https://josefdrda.github.io/pssd/favicon.ico",
         "https://josefdrda.github.io/pssd/index.html",
-        "https://josefdrda.github.io/pssd/main.7b98a85fd17a06059193.js",
+        "https://josefdrda.github.io/pssd/main.eea1d83afac5686873cb.js",
         "https://josefdrda.github.io/pssd/polyfills.c6871e56cb80756a5498.js",
         "https://josefdrda.github.io/pssd/runtime.ec2944dd8b20ec099bf3.js",
         "https://josefdrda.github.io/pssd/styles.155bc9a030bcaff4c8d1.css"
@@ -21,11 +21,8 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "https://josefdrda.github.io/pssd/assets/icons/icon-128x128.png",
         "https://josefdrda.github.io/pssd/assets/icons/icon-144x144.png",
-        "https://josefdrda.github.io/pssd/assets/icons/icon-152x152.png",
         "https://josefdrda.github.io/pssd/assets/icons/icon-192x192.png",
-        "https://josefdrda.github.io/pssd/assets/icons/icon-384x384.png",
         "https://josefdrda.github.io/pssd/assets/icons/icon-512x512.png",
         "https://josefdrda.github.io/pssd/assets/icons/icon-72x72.png",
         "https://josefdrda.github.io/pssd/assets/icons/icon-96x96.png"
@@ -35,17 +32,14 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://josefdrda.github.io/pssd/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "https://josefdrda.github.io/pssd/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "https://josefdrda.github.io/pssd/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "https://josefdrda.github.io/pssd/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "https://josefdrda.github.io/pssd/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "https://josefdrda.github.io/pssd/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "https://josefdrda.github.io/pssd/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "https://josefdrda.github.io/pssd/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "https://josefdrda.github.io/pssd/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://josefdrda.github.io/pssd/index.html": "fd7d6a476c544e361a06a09fe84b269a2255c7ad",
-    "https://josefdrda.github.io/pssd/main.7b98a85fd17a06059193.js": "a737c5aadb2b71266062fb57d9700d16ffa7f9a7",
+    "https://josefdrda.github.io/pssd/assets/icons/icon-144x144.png": "72c067bd7b061e4864b236920beb92bd95a64e18",
+    "https://josefdrda.github.io/pssd/assets/icons/icon-192x192.png": "3bfb3db158bdbc218236b01ae47ee9d97b04a30e",
+    "https://josefdrda.github.io/pssd/assets/icons/icon-512x512.png": "d3ef1ecac0aec1865e5de06a8a07e540267ee84c",
+    "https://josefdrda.github.io/pssd/assets/icons/icon-72x72.png": "6a3d34ed954663e2d0aeaef094312e7180b9ed6f",
+    "https://josefdrda.github.io/pssd/assets/icons/icon-96x96.png": "829ddb58397c6588dbb2675367a4f4d748aeff20",
+    "https://josefdrda.github.io/pssd/favicon.ico": "5b079e8f44f0ddc664083ab6a783d14bd11dd084",
+    "https://josefdrda.github.io/pssd/index.html": "92cf53efd583e0fe66ccf156fe32ab5606fb66d2",
+    "https://josefdrda.github.io/pssd/main.eea1d83afac5686873cb.js": "5d9680512cf13350c636f54b00833e680ca52515",
     "https://josefdrda.github.io/pssd/polyfills.c6871e56cb80756a5498.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
     "https://josefdrda.github.io/pssd/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "https://josefdrda.github.io/pssd/styles.155bc9a030bcaff4c8d1.css": "cf9d9656af02c4606a959e325eba445672a3de7d"

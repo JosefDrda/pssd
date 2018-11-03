@@ -1,6 +1,9 @@
 <div class="mainbox">
   <div class="center">
-    <div class="expire">
+    <div *ngIf="!init">
+      <a class="start" (click)="start()">GENERATE CODE</a>
+    </div>
+    <div class="expire" *ngIf="init">
       <div class="code">{{code}} <a class="refresh" (click)="refreshCode()"></a></div>
       <div class="progress" [style.width.%]="percent"></div>
     </div>

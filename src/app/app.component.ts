@@ -1,26 +1,20 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   title = 'password-of-day';
   public code: number = null;
   public progress;
+  public init: boolean = null;
   public percent: number = null;
   protected coderoot = 7849000;
 
-  ngOnInit() {
-    this.code = this.getCode();
-    this.getProgress();
-    this.progress = setInterval(() => {
-      this.getProgress();
-    }, 500);
-  }
-
   start() {
+    this.init = true;
     this.code = this.getCode();
     this.getProgress();
     this.progress = setInterval(() => {

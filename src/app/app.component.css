@@ -15,6 +15,7 @@
   flex-direction: column;
 }
 .code{
+  color: #222;
   font-size: 4rem;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
@@ -32,4 +33,13 @@
   background: blueviolet;
   align-self: flex-end;
   transition: 1s linear width;
+}
+.start{
+  color: #333;
+  font-family: Arial;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 0.2rem solid #333;
+  border-radius: 2rem;
 }
