@@ -1,9 +1,9 @@
 {
   "name": "Password of Day",
   "short_name": "Passwd",
-  "theme_color": "#aaa",
-  "background_color": "#aaa",
-  "display": "minimal-ui",
+  "theme_color": "#aaaaaa",
+  "background_color": "#aaaaaa",
+  "display": "standalone",
   "scope": "/",
   "start_url": "https://josefdrda.github.io/pssd/",
   "icons": [
