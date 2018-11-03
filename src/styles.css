@@ -1,6 +1,7 @@
 .mainbox, .container, html, body, main, app-root{
   height: 100%;
   margin: 0;
+  overscroll-behavior-y: contain;
 }
 
 body {
