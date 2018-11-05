@@ -10,8 +10,11 @@ export class AppComponent {
   public code: number = null;
   public progress;
   public init: boolean = null;
+  public settings: boolean = null;
   public percent: number = null;
   protected coderoot = 7849000;
+
+
 
   start() {
     this.init = true;
@@ -51,6 +54,9 @@ export class AppComponent {
   }
 
   prepareDate() {
+    const localStorageItem = JSON.parse(localStorage.getItem('diff'));
+
+
     const now = new Date();
     const day = ('0' + now.getDate()).slice(-2);
     const hour = ('0' + (now.getHours())).slice(-2);
@@ -58,5 +64,13 @@ export class AppComponent {
     const date = {'day': day, 'hour': hour, 'minute': minute};
     return date;
 
+  }
+
+  openSettings() {
+    this.settings = true;
+  }
+
+  closeSettings() {
+    this.settings = false;
   }
 }

@@ -1,9 +1,32 @@
 <div class="mainbox">
   <div class="center">
     <div *ngIf="!init">
-      <a class="start" (click)="start()">GENERATE CODE</a>
+      <a class="start" (click)="start()">VYGENEROVAT</a>
     </div>
-    <div class="expire" *ngIf="init">
+    <div class="expire settings" *ngIf="init && settings">
+      <div class="routerActions">
+        <a routerLink="/settings" (click)="closeSettings()" routerLinkActive="active">X
+          <i class="fa fa-cog"></i>
+        </a>
+      </div>
+      Nastavit nový datum a čas
+      <div>
+        <label for="fdate">Datum</label>
+        <input type="date" id="fdate" value="">
+      </div>
+      <div>
+        <label for="ftime">Čas</label>
+        <input type="time" id="ftime" value="">
+      </div>
+      <a (click)="saveDateTime()">Uložit</a> / <a (click)="resetDateTime()">resetovat nastavení</a>
+
+    </div>
+    <div class="expire" *ngIf="init && !settings">
+      <div class="routerActions">
+        <a routerLink="/settings" (click)="openSettings()" routerLinkActive="active">O
+          <i class="fa fa-cog"></i>
+        </a>
+      </div>
       <div class="code">{{code}} <a class="refresh" (click)="refreshCode()"></a></div>
       <div class="progress" [style.width.%]="percent"></div>
     </div>

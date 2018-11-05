@@ -7,3 +7,14 @@
 body {
   background: #aaa;
 }
+
+.routerActions{
+  position: absolute;
+  right: .5rem;
+  top: .5rem;
+}
+
+.routerActions a{
+  font-size: 2rem;
+  color: #fff;
+}
